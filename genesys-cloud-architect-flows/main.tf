@@ -22,11 +22,6 @@ provider "genesyscloud" {
   aws_region = "us-east-1"
 }
 
-
-resource "genesyscloud_flow" "flow" {  
-filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/502853c812fd185b6fbe1aa8a634dde2e3c2387a/Archy%20Hello%20World_v1-0.yaml"
-}
-
 resource "genesyscloud_flow" "flow1" {  
-filepath = "https://bitbucket.org/anushkasathe/automatedflows/src/main/Archy%20Hello%20World_v1-0.yaml"
+filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/25cbec136f31038ef6c7e02c73c3892bfcaa7033/Archy%20Hello%20World_v1-0.yaml"
 }
