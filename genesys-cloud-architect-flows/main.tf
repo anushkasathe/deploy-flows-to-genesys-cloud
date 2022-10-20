@@ -31,4 +31,5 @@ resource "genesyscloud_flow" "flow1" {
 filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/d80edc751302e93a1782192b5305749219e7589f/JSON_FLOW_1.yaml"
 substitutions = {
     flow_name            = "Genesys-JSON-Tutorial-01- <person name>"
-}   
+ }   
+}
