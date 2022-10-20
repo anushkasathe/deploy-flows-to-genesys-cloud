@@ -24,11 +24,11 @@ provider "genesyscloud" {
 
 
 resource "genesyscloud_flow" "flow" {  
-filepath = "https://bitbucket.org/anushkasathe/automatedflows/src/main/Archy%20Hello%20World_v1-0.yaml"
+filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/502853c812fd185b6fbe1aa8a634dde2e3c2387a/Archy%20Hello%20World_v1-0.yaml"
 }
 
 resource "genesyscloud_flow" "flow1" {  
-filepath = "https://bitbucket.org/anushkasathe/automatedflows/src/main/JSON_FLOW_1.yaml"
+filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/502853c812fd185b6fbe1aa8a634dde2e3c2387a/JSON_FLOW_1.yaml"
   substitutions = {
    person_name = "add a person name here"
  }   
