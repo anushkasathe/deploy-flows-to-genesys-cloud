@@ -22,19 +22,7 @@ provider "genesyscloud" {
   aws_region = "us-east-1"
 }
 
-
 resource "genesyscloud_flow" "flow" {  
-filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/707faa02f826731708f1498f3196c53af1f5e6d1/Archy%20Hello%20World_v1-0.yaml"
+filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/ca24b62d2ddc2ad72b09ee43dc036745701b660a/terraformDemo.yaml"
 }
-
-resource "genesyscloud_flow" "flow1" {  
-filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/707faa02f826731708f1498f3196c53af1f5e6d1/Archy%20Hello%20World_v1-0.yaml"
-}
-resource "genesyscloud_flow" "flow2" {  
-filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/707faa02f826731708f1498f3196c53af1f5e6d1/Archy%20Hello%20World_v1-0.yaml"
-}
-resource "genesyscloud_flow" "flow3" {  
-filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/707faa02f826731708f1498f3196c53af1f5e6d1/Archy%20Hello%20World_v1-0.yaml"
-}
-
        
