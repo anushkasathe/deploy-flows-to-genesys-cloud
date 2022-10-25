@@ -6,7 +6,6 @@ runs:
     - run: |
         cd $GITHUB_WORKSPACE/genesys-cloud-architect-flows
         terraform init 
-        terraform apply -refresh-only
         terraform apply --auto-approve
         cd $GITHUB_WORKSPACE
       shell: bash
